@@ -1,14 +1,14 @@
 {
-    "name": "mahdiraad/lumen-sail",
+    "name": "jeitnier/lumen-sail",
     "description": "Installing Laravel Sail Package in Lumen",
     "license": "MIT",
     "support": {
-        "source": "https://github.com/mahdiraad/lumen-sail"
+        "source": "https://github.com/jeitnier/lumen-sail"
     },
     "authors": [
         {
-            "name": "Mahdi M. Raad",
-            "email": "mahdiraad@gmail.com"
+            "name": "Jared Eitnier",
+            "email": "jeitnier@gmail.com"
         }
     ],
     "require": {
@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "mahdiraad\\LumenSail\\": "src/"
+            "jeitnier\\LumenSail\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "mahdiraad\\LumenSail\\LumenSailServiceProvider"
+                "jeitnier\\LumenSail\\LumenSailServiceProvider"
             ]
         }
     }
